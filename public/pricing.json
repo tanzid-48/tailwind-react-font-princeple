@@ -1,0 +1,74 @@
+{
+  "pricingPlans": [
+    {
+      "id": 1,
+      "name": "Basic",
+      "price": 20,
+      "duration": "month",
+      "description": "Perfect for beginners starting their fitness journey.",
+      "features": [
+        "Access to gym equipment",
+        "1 hour daily access",
+        "Locker facility",
+        "Free WiFi",
+        "Basic fitness assessment",
+        "Access to group classes (limited)",
+        "Mobile app access"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Standard",
+      "price": 40,
+      "duration": "month",
+      "description": "Ideal for regular gym users.",
+      "features": [
+        "Unlimited gym access",
+        "Cardio & strength training",
+        "Locker + Shower",
+        "1 personal training session/week",
+        "Diet plan guidance",
+        "Access to all group classes",
+        "Progress tracking",
+        "Body composition analysis"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Premium",
+      "price": 70,
+      "duration": "month",
+      "description": "Advanced support for serious fitness goals.",
+      "features": [
+        "24/7 gym access",
+        "All equipment access",
+        "Personal trainer (daily)",
+        "Custom diet plan",
+        "Sauna & steam bath",
+        "Supplement guidance",
+        "Priority booking for classes",
+        "Monthly fitness report",
+        "Injury prevention support"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Elite",
+      "price": 100,
+      "duration": "month",
+      "description": "All-inclusive premium experience.",
+      "features": [
+        "24/7 VIP access",
+        "Dedicated personal trainer",
+        "Custom workout & diet plan",
+        "Massage & recovery services",
+        "Priority support",
+        "Private training room access",
+        "Nutritionist consultation",
+        "Unlimited guest passes",
+        "Exclusive fitness events",
+        "Premium locker & amenities"
+      ]
+    }
+  ]
+}
