@@ -33,7 +33,7 @@ const NavBar = () => {
 
     const [open, setOpen] = useState(false);
 
-    const links =  navLinks.map(link => (<li className=' p-1 hover:bg-amber-400 ' key={link.id}><a href={link.path}>{link.name}</a></li>))
+    const links = navLinks.map(link => (<li className=' p-1 hover:bg-amber-400 ' key={link.id}><a href={link.path}>{link.name}</a></li>))
 
 
     return (
@@ -41,25 +41,25 @@ const NavBar = () => {
 
             <span className='flex' onClick={() => setOpen(!open)}>
                 {
-                    open 
-                    ?<X className='md:hidden'></X> 
-                    :<Menu className=' md:hidden'></Menu>
+                    open
+                        ? <X className='md:hidden'></X>
+                        : <Menu className=' md:hidden'></Menu>
                 }
-          <ul className= {`md:hidden absolute duration-1000 ${open ? 'top-8' : '-top-40'} bg-amber-200`}>
-            {
-              <span className='text-black'>
-                 {
-                    links
-                 }
-              </span>
-            }
-          </ul>
+                <ul className={`md:hidden absolute duration-1000 ${open ? 'top-8' : '-top-40'} bg-amber-200`}>
+                    {
+                        <span className='text-black'>
+                            {
+                                links
+                            }
+                        </span>
+                    }
+                </ul>
                 <h3 className='ml-4'>TANZID</h3>
             </span>
 
             <ul className=' md:flex hidden '>
                 {
-                   links
+                    links
                 }
             </ul>
 
