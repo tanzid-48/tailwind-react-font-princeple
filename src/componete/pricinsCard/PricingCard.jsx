@@ -4,12 +4,12 @@ const PricingCard = ({ pricing }) => {
     console.log(pricing);
     return (
         <div className="">
-            <div className='border-2 p-4 bg-amber-600 rounded-3xl '>
+            <div className=' flex flex-col border-2 p-4 bg-amber-600 rounded-3xl '>
                 {/* Card Header */}
                 <h2 className='text-5xl'>{pricing.name}</h2>
                 <h4 className='text-3xl'>$ {pricing.price}/{pricing.duration}</h4>
                 {/* Card Body */}
-                <div className="bg-green-600  p-3 rounded-3xl mt-10 text-sm">
+                <div className="bg-green-600  p-3 rounded-3xl mt-10 text-sm flex-1">
                     <p>{pricing.description}</p>
                 </div>
 
@@ -27,11 +27,13 @@ const PricingCard = ({ pricing }) => {
 ))
         } */}
 
+        
+
 
             </div>
 
 
-
+<button className="btn w-full mt-1 rounded-2xl bg-gray-400 text-black">Subscribe</button>
 
 
         </div>

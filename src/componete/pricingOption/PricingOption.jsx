@@ -8,13 +8,15 @@ const PricingOption = ({ pricingPromise }) => {
     return (
         <div>
             <h2 className='text-5xl'>Get Our MemberShip</h2>
-            <div className="grid md:grid-cols-4 gap-5 ">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 ">
                 {
                     // pricingData.map(pricing => <PricingCard key={pricing.id} pricing= {pricing}></PricingCard>)
 
                     pricingData.pricingPlans.map(pricing => <PricingCard key={pricing.id} pricing={pricing}></PricingCard>)
                 }
+                  
             </div>
+          
         </div>
     );
 };
