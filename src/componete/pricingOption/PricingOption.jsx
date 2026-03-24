@@ -1,5 +1,6 @@
 import React, { use } from 'react';
 import PricingCard from '../pricinsCard/PricingCard';
+import DaysiPrising from '../daysiPricing/daysiPrising';
 
 const PricingOption = ({ pricingPromise }) => {
 
@@ -16,6 +17,20 @@ const PricingOption = ({ pricingPromise }) => {
                 }
                   
             </div>
+
+          <h2 className='text-5xl'>Get Our MemberShip Daisy</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 ">
+            {
+
+                pricingData.pricingPlans.map(pricing => <DaysiPrising
+                key={pricing.id}
+                pricing={pricing}
+                ></DaysiPrising>)
+
+
+            }
+
+          </div>
           
         </div>
     );

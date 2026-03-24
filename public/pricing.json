@@ -21,6 +21,7 @@
             "name": "Standard",
             "price": 40,
             "duration": "month",
+            "popular": true,
             "description": "Ideal for regular gym users.",
             "features": [
                 "Unlimited gym access",
@@ -37,6 +38,7 @@
             "id": 3,
             "name": "Premium",
             "price": 70,
+            "popular": true,
             "duration": "month",
             "description": "Advanced support for serious fitness goals.",
             "features": [
