@@ -1,7 +1,7 @@
 import React from 'react';
 
 const PricingCard = ({ pricing }) => {
-    console.log(pricing);
+    // console.log(pricing);
     return (
         <div className="">
             <div className=' flex flex-col border-2 p-4 bg-amber-600 rounded-3xl '>

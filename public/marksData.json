@@ -1,0 +1,14 @@
+{
+  "students": [
+    { "id": 1, "name": "Rahim", "phy": 78, "chem": 82, "math": 90 },
+    { "id": 2, "name": "Karim", "phy": 65, "chem": 70, "math": 68 },
+    { "id": 3, "name": "Ayesha", "phy": 88, "chem": 91, "math": 95 },
+    { "id": 4, "name": "Nusrat", "phy": 72, "chem": 75, "math": 80 },
+    { "id": 5, "name": "Hasan", "phy": 60, "chem": 64, "math": 58 },
+    { "id": 6, "name": "Sadia", "phy": 85, "chem": 87, "math": 92 },
+    { "id": 7, "name": "Imran", "phy": 70, "chem": 68, "math": 72 },
+    { "id": 8, "name": "Mitu", "phy": 90, "chem": 93, "math": 96 },
+    { "id": 9, "name": "Tanvir", "phy": 55, "chem": 60, "math": 62 },
+    { "id": 10, "name": "Lima", "phy": 80, "chem": 78, "math": 85 }
+  ]
+}
